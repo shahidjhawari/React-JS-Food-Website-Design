@@ -46,7 +46,7 @@ function About() {
       <main>
         <div className="profile">
           <img
-            src={shahid}
+            src={mustafa}
             alt="Your Name"
             height="200px"
             width="200px"
