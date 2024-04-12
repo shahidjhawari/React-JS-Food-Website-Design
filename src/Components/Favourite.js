@@ -2,6 +2,8 @@ import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import './All.css';
+import img1 from './img/img1.jpg';
+import img2 from './img/img2.jpg';
 
 function Favourite() {
   return (
@@ -11,7 +13,7 @@ function Favourite() {
       <section className="products">
         <div className="product">
           <h3>PIZZA</h3>
-          <img src="img/img1.jpg" alt="Product 1" />
+          <img src={img1} alt="Product 1" />
           <p style={{ textDecorationLine: "line-through", color: "red" }}>
             Rs. 1200
           </p>
@@ -19,7 +21,7 @@ function Favourite() {
         </div>
         <div className="product">
           <h3>DEW</h3>
-          <img src="img/dri3.jpg" alt="Product 2" />
+          <img src={img1} alt="Product 2" />
           <p style={{ textDecorationLine: "line-through", color: "red" }}>
             Rs. 120
           </p>
@@ -27,7 +29,7 @@ function Favourite() {
         </div>
         <div className="product">
           <h3>ICE CREAM</h3>
-          <img src="img/sw4.jpg" alt="Product 3" />
+          <img src={img1} alt="Product 3" />
           <p style={{ textDecorationLine: "line-through", color: "red" }}>
             Rs. 400
           </p>
