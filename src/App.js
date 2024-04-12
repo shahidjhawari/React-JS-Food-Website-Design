@@ -1,5 +1,3 @@
-import Header from "./Components/Header";
-import Footer from "./Components/Footer";
 import Data from "./Components/Data";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Contact from "./Components/Contact";
