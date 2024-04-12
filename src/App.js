@@ -8,6 +8,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Data />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="*" element={<div>Error 404</div>} />
     </Routes>
   </BrowserRouter>
   );

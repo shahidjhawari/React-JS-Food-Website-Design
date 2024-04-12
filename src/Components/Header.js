@@ -1,6 +1,6 @@
 import React from "react";
 import './All.css';
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -9,7 +9,7 @@ export default function Header() {
       <nav>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <NavLink to="/">Home</NavLink>
           </li>
           <li>
             <a href="favourit.html">Favourite</a>
@@ -18,7 +18,7 @@ export default function Header() {
             <a href="about.html">About Us</a>
           </li>
           <li>
-          <Link to="/contact">Contact</Link>
+          <NavLink to="/contact">Contact</NavLink>
           </li>
         </ul>
       </nav>
