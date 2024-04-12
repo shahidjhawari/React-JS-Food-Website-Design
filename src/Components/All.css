@@ -1,0 +1,285 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the body */
+h1 {
+   text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.882); 
+   margin-bottom: 10px;
+   user-select: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background-color: #ff2289;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+/* Navigation menu styling */
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.882); 
+}
+
+nav a:hover {
+    color: rgb(0, 0, 0);
+}
+
+/* Main content sections styling */
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    background-color: #f22a87;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.882);
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+}
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1), -2px -2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    transition: transform 0.2s;
+}
+
+.product h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    transition: transform 0.2s;
+}
+
+.product:hover {
+    transform: perspective(800px) rotateY(15deg); /* You can adjust the angle */
+}
+
+.product-image:hover {
+    transform: perspective(800px) rotateY(15deg); /* You can adjust the angle */
+}
+
+.product p {
+    color: black;
+    font-weight: bold;
+}
+
+.section-heading {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #e61878;
+    user-select: none;
+    margin-top: 20px;
+    text-shadow: px 1px ;
+}
+
+.section-heading:hover {
+    color: black;
+}
+
+/* Login & Sign Up Page */
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+.form {
+    text-align: center;
+}
+
+.form h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px black inset;
+}
+
+button {
+    background-color: #ff2289;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(40, 36, 36);
+}
+
+/* contact us */
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin: 15px 0;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="email"],
+textarea {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px black inset;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #ff2289;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(40, 36, 36);
+}
+
+/* about us */ 
+
+
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.nam {
+    text-shadow: 1px 1px 3px rgb(178, 178, 178);
+}
+.profile {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.profile img {
+    max-width: 50%;
+    border-radius: 10%;
+}
+
+h2 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+
+p {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    user-select: text;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    main {
+        margin: 20px;
+    }
+}
