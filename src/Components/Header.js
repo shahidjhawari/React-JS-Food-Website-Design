@@ -8,9 +8,6 @@ export default function Header() {
       <nav>
         <ul>
           <li>
-            <a href="index.html">Home</a>
-          </li>
-          <li>
             <a href="profile.html">Profile</a>
           </li>
           <li>

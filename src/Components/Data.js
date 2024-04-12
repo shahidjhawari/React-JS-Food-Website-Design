@@ -9,10 +9,13 @@ import img7 from './img/br2.jpg';
 import img8 from './img/br3.jpg';
 import img9 from './img/br4.jpg';
 import img10 from './img/br5.jpg';
+import Header from './Header';
+import Footer from './Footer';
 
-function Main() {
+function Data() {
   return (
     <>
+    <Header />
     <h2 className="section-heading">FAST FOOD</h2>
     <section className="products">
         <div className="product">
@@ -80,8 +83,9 @@ function Main() {
             <p>Rs. 1200</p>
         </div>
     </section>
+    <Footer />
 </>
   )
 }
 
-export default Main
+export default Data
