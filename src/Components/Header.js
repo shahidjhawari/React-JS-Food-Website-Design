@@ -15,7 +15,7 @@ export default function Header() {
             <a href="favourit.html">Favourite</a>
           </li>
           <li>
-            <a href="about.html">About Us</a>
+          <NavLink to="/about">About</NavLink>
           </li>
           <li>
           <NavLink to="/contact">Contact</NavLink>
